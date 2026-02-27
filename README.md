@@ -1,6 +1,6 @@
 # Codon-usage clustering pipeline
 
-This repository contains a small Python pipeline to (i) cluster genes based on per-gene codon/AA usage profiles, (ii) export results to Excel, and (iii) generate 2D embedding overlay plots for curated gene sets.
+This repository contains a Python pipeline to (i) cluster genes based on per-gene codon/AA usage profiles, (ii) export results to Excel, and (iii) generate 2D embedding overlay plots for curated gene sets.
 
 ## Quick start
 
