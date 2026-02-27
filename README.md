@@ -2,7 +2,8 @@
 
 This repository contains a Python pipeline to (i) cluster genes based on per-gene codon/AA usage profiles, (ii) export results to Excel, and (iii) generate 2D embedding overlay plots for curated gene sets.
 
-https://zenodo.org/badge/1168441233.svg
+[![DOI](https://zenodo.org/badge/1168441233.svg)](https://doi.org/10.5281/zenodo.18801832)
+
 
 ## Quick start
 
