@@ -1,0 +1,11 @@
+numpy
+pandas
+matplotlib
+scipy
+scikit-learn
+xlsxwriter
+openpyxl
+
+# Optional (only needed if you use them):
+umap-learn
+scikit-learn-extra

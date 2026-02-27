@@ -1,0 +1,214 @@
+============================================================================================
+PLOTTING PARAMETERS (APPENDED) — Plotting_Pipeline.py
+--------------------------------------------------------------------------------------------
+Workbook used: cds_from_genomic_ClusteringAnalysis.xlsx
+Expected output figure (best-effort): cds_from_genomic_ClusteringAnalysis_UMAP_local_ENRICH_log2_unilateral_diverging.png
+
+Selected key plotting parameters:
+  UMAP_SHEET = coordinates
+  DATA_SHEET = Binary
+  PLOT_MODE = grid
+  MAX_NROWS = 4
+  PANEL_W_IN = 5.0
+  PANEL_H_IN = 5.0
+  X_LABEL = UMAP1
+  Y_LABEL = UMAP2
+  COLOR_MODE = enrichment
+  DENSITY_CMAP_NAME = plasma_r
+  ALL_SCATTER_DENSITY_NBINS = 150
+  ALL_SCATTER_DENSITY_SIGMA = 4.0
+  ALL_SCATTER_DENSITY_USE_LOG = True
+  ENRICHMENT_SCALE = log2
+  ENRICHMENT_STYLE = unilateral_diverging
+  ENRICHMENT_CMAP_NAME = plasma_r
+  ENRICHMENT_VMAX = 3
+  ENRICHMENT_PERCENTILE = 99.0
+  ENRICHMENT_SYMMETRIC = True
+  ENRICHMENT_EPS = 1e-12
+  SAVE_FIG = True
+  PNG_DPI = 220
+
+Full configuration dump (all UPPERCASE globals captured):
+  ALL_GENES_PANEL_MODE = density
+  ALL_SCATTER_ALPHA = 0.7
+  ALL_SCATTER_DENSITY_MAX_REL = 1.0
+  ALL_SCATTER_DENSITY_MIN_REL = 0.0
+  ALL_SCATTER_DENSITY_NBINS = 150
+  ALL_SCATTER_DENSITY_SIGMA = 4.0
+  ALL_SCATTER_DENSITY_USE_LOG = True
+  ALL_SCATTER_EDGE_WIDTH = 0.15
+  ALL_SCATTER_POINT_SIZE = 3.5
+  BACKGROUND_ALPHA = 0.18
+  BACKGROUND_COLOR = grey
+  BACKGROUND_LW = 0.0
+  BACKGROUND_SIZE = 8
+  CAPTION_MAX_NAME_LINES = 2
+  CAPTION_PAD = 8
+  CAPTION_SIZE = 12
+  CAPTION_WEIGHT = bold
+  CAPTION_WRAP_CHAR_WIDTH = 35
+  CAPTION_WRAP_ENABLED = True
+  CLUSTER_SCATTER_PRESETS = [{'MIN_N': 0, 'MAX_N': 100, 'POINT_SIZE': 40.0, 'ALPHA': 0.95, 'EDGE_WIDTH': 0.6, 'DENSITY_NBINS': 50, 'DENSITY_SIGMA': 2.0, 'DENSITY_USE_LOG': True, 'DENSITY_MIN_REL': 0.0, 'DENSITY_MAX_REL': 1.0}, {'MIN_N': 100, 'MAX_N': 250, 'POINT_SIZE': 35.0, 'ALPHA': 0.95, 'EDGE_WIDTH': 0.6, 'DENSITY_NBINS': 80, 'DENSITY_SIGMA': 2.5, 'DENSITY_USE_LOG': True, 'DENSITY_MIN_REL': 0.0, 'DENSITY_MAX_REL': 1.0}, {'MIN_N': 250, 'MAX_N': 500, 'POINT_SIZE': 20.0, 'ALPHA': 0.95, 'EDGE_WIDTH': 0.3, 'DENSITY_NBINS': 110, 'DENSITY_SIGMA': 3.0, 'DENSITY_USE_LOG': True, 'DENSITY_MIN_REL': 0.0, 'DENSITY_MAX_REL': 1.0}, {'MIN_N': 500, 'MAX_N': 1500, 'POINT_SIZE': 14, 'ALPHA': 0.9, 'EDGE_WIDTH': 0.2, 'DENSITY_NBINS': 150, 'DENSITY_SIGMA': 4.0, 'DENSITY_USE_LOG': True, 'DENSITY_MIN_REL': 0.0, 'DENSITY_MAX_REL': 1.0}, {'MIN_N': 1500, 'MAX_N': 2500, 'POINT_SIZE': 6.0, 'ALPHA': 0.85, 'EDGE_WIDTH': 0.1, 'DENSITY_NBINS': 180, 'DENSITY_SIGMA': 4.5, 'DENSITY_USE_LOG': True, 'DENSITY_MIN_REL': 0.0, 'DENSITY_MAX_REL': 1.0}, {'MIN_N': 2500, 'MAX_N': None, 'POINT_SIZE': 3.5, 'ALPHA': 0.8, 'EDGE_WIDTH': 0.08, 'DENSITY_NBINS': 150, 'DENSITY_SIGMA': 4.0, 'DENSITY_USE_LOG': True, 'DENSITY_MIN_REL': 0.0, 'DENSITY_MAX_REL': 1.0}]
+  COLOR_MODE = enrichment
+  CUSTOM_CMAPS_XLSX = 
+  DATA_SHEET = Binary
+  DEBUG_PRINT_CONFIG = False
+  DENSITY_CMAP_NAME = plasma_r
+  DRAW_GRID = True
+  ENRICHMENT_CMAP_NAME = plasma_r
+  ENRICHMENT_EPS = 1e-12
+  ENRICHMENT_FORCE_NEUTRAL_BELOW_CENTER = False
+  ENRICHMENT_NEUTRAL_RGBA = (0.85, 0.85, 0.85, 1.0)
+  ENRICHMENT_PERCENTILE = 99.0
+  ENRICHMENT_SCALE = log2
+  ENRICHMENT_STYLE = unilateral_diverging
+  ENRICHMENT_SYMMETRIC = True
+  ENRICHMENT_VMAX = 3
+  EXCEL_PATH = C:/Users/fredz/Desktop/test/Test codonpipe\umap nn10 md0p01\cds_from_genomic_ClusteringAnalysis.xlsx
+  GCHM_CMAP_MAX_REL = 1.0
+  GCHM_CMAP_MIN_REL = 0.2
+  GCHM_COLORMAP = plasma
+  GCHM_CUSTOM_CMAPS_XLSX = 
+  GCHM_DPI = 300
+  GCHM_HEIGHT_PER_CLUSTER = 0.3
+  GCHM_LABEL_FONTSIZE = 10
+  GCHM_OUTPUT_FILENAME = gene_cluster_heatmap_KS.png
+  GCHM_SHOW_FIG = True
+  GCHM_SIGMA = 10.0
+  GCHM_SPREAD_FACTOR = 5.0
+  GRID_MAJOR_ALPHA = 0.55
+  GRID_MAJOR_COLOR = black
+  GRID_MAJOR_LW = 1.0
+  GRID_MAJOR_STEP = None
+  HERE = c:\dropbox\boulot fred\matlab & python\python\codonpipe
+  HIGHLIGHT_ALPHA = 0.95
+  HIGHLIGHT_COLUMNS = None
+  HIGHLIGHT_EDGE_COLOR = black
+  HIGHLIGHT_EDGE_WIDTH = 0.6
+  HIGHLIGHT_MARKER = o
+  INCLUDE_COLUMNS = None
+  LOCUS_TAGS_SHEET = Locus Tags
+  MAX_NROWS = 4
+  PANEL_H_IN = 5.0
+  PANEL_W_IN = 5.0
+  PLOT_MODE = grid
+  PNG_DPI = 220
+  ROOT = c:\dropbox\boulot fred\matlab & python\python\codonpipe
+  RUN_GENE_CLUSTER_LOCALIZATION_HEATMAP = True
+  SAVE_FIG = True
+  SHOW_BACKGROUND_SMALL = True
+  SHOW_COLORBAR = True
+  SUBPLOT_HSPACE = 0.3
+  SUBPLOT_WSPACE = 0.2
+  UMAP_SHEET = coordinates
+  USE_FILE_DIALOG = False
+  X_LABEL = UMAP1
+  Y_LABEL = UMAP2
+
+============================================================================================
+PLOTTING PARAMETERS (APPENDED) — Plotting_Pipeline.py
+--------------------------------------------------------------------------------------------
+Workbook used: cds_from_genomic_ClusteringAnalysis.xlsx
+Expected output figure (best-effort): cds_from_genomic_ClusteringAnalysis_UMAP_local_ENRICH_log2_unilateral_diverging.png
+
+Selected key plotting parameters:
+  UMAP_SHEET = coordinates
+  DATA_SHEET = Binary
+  PLOT_MODE = grid
+  MAX_NROWS = 4
+  PANEL_W_IN = 5.0
+  PANEL_H_IN = 5.0
+  X_LABEL = UMAP1
+  Y_LABEL = UMAP2
+  COLOR_MODE = enrichment
+  DENSITY_CMAP_NAME = plasma_r
+  ALL_SCATTER_DENSITY_NBINS = 150
+  ALL_SCATTER_DENSITY_SIGMA = 4.0
+  ALL_SCATTER_DENSITY_USE_LOG = True
+  ENRICHMENT_SCALE = log2
+  ENRICHMENT_STYLE = unilateral_diverging
+  ENRICHMENT_CMAP_NAME = plasma_r
+  ENRICHMENT_VMAX = 3
+  ENRICHMENT_PERCENTILE = 99.0
+  ENRICHMENT_SYMMETRIC = True
+  ENRICHMENT_EPS = 1e-12
+  SAVE_FIG = True
+  PNG_DPI = 220
+
+Full configuration dump (all UPPERCASE globals captured):
+  ALL_GENES_PANEL_MODE = density
+  ALL_SCATTER_ALPHA = 0.7
+  ALL_SCATTER_DENSITY_MAX_REL = 1.0
+  ALL_SCATTER_DENSITY_MIN_REL = 0.0
+  ALL_SCATTER_DENSITY_NBINS = 150
+  ALL_SCATTER_DENSITY_SIGMA = 4.0
+  ALL_SCATTER_DENSITY_USE_LOG = True
+  ALL_SCATTER_EDGE_WIDTH = 0.15
+  ALL_SCATTER_POINT_SIZE = 3.5
+  BACKGROUND_ALPHA = 0.18
+  BACKGROUND_COLOR = grey
+  BACKGROUND_LW = 0.0
+  BACKGROUND_SIZE = 8
+  CAPTION_MAX_NAME_LINES = 2
+  CAPTION_PAD = 8
+  CAPTION_SIZE = 12
+  CAPTION_WEIGHT = bold
+  CAPTION_WRAP_CHAR_WIDTH = 35
+  CAPTION_WRAP_ENABLED = True
+  CLUSTER_SCATTER_PRESETS = [{'MIN_N': 0, 'MAX_N': 100, 'POINT_SIZE': 40.0, 'ALPHA': 0.95, 'EDGE_WIDTH': 0.6, 'DENSITY_NBINS': 50, 'DENSITY_SIGMA': 2.0, 'DENSITY_USE_LOG': True, 'DENSITY_MIN_REL': 0.0, 'DENSITY_MAX_REL': 1.0}, {'MIN_N': 100, 'MAX_N': 250, 'POINT_SIZE': 35.0, 'ALPHA': 0.95, 'EDGE_WIDTH': 0.6, 'DENSITY_NBINS': 80, 'DENSITY_SIGMA': 2.5, 'DENSITY_USE_LOG': True, 'DENSITY_MIN_REL': 0.0, 'DENSITY_MAX_REL': 1.0}, {'MIN_N': 250, 'MAX_N': 500, 'POINT_SIZE': 20.0, 'ALPHA': 0.95, 'EDGE_WIDTH': 0.3, 'DENSITY_NBINS': 110, 'DENSITY_SIGMA': 3.0, 'DENSITY_USE_LOG': True, 'DENSITY_MIN_REL': 0.0, 'DENSITY_MAX_REL': 1.0}, {'MIN_N': 500, 'MAX_N': 1500, 'POINT_SIZE': 14, 'ALPHA': 0.9, 'EDGE_WIDTH': 0.2, 'DENSITY_NBINS': 150, 'DENSITY_SIGMA': 4.0, 'DENSITY_USE_LOG': True, 'DENSITY_MIN_REL': 0.0, 'DENSITY_MAX_REL': 1.0}, {'MIN_N': 1500, 'MAX_N': 2500, 'POINT_SIZE': 6.0, 'ALPHA': 0.85, 'EDGE_WIDTH': 0.1, 'DENSITY_NBINS': 180, 'DENSITY_SIGMA': 4.5, 'DENSITY_USE_LOG': True, 'DENSITY_MIN_REL': 0.0, 'DENSITY_MAX_REL': 1.0}, {'MIN_N': 2500, 'MAX_N': None, 'POINT_SIZE': 3.5, 'ALPHA': 0.8, 'EDGE_WIDTH': 0.08, 'DENSITY_NBINS': 150, 'DENSITY_SIGMA': 4.0, 'DENSITY_USE_LOG': True, 'DENSITY_MIN_REL': 0.0, 'DENSITY_MAX_REL': 1.0}]
+  COLOR_MODE = enrichment
+  CUSTOM_CMAPS_XLSX = 
+  DATA_SHEET = Binary
+  DEBUG_PRINT_CONFIG = False
+  DENSITY_CMAP_NAME = plasma_r
+  DRAW_GRID = True
+  ENRICHMENT_CMAP_NAME = plasma_r
+  ENRICHMENT_EPS = 1e-12
+  ENRICHMENT_FORCE_NEUTRAL_BELOW_CENTER = False
+  ENRICHMENT_NEUTRAL_RGBA = (0.85, 0.85, 0.85, 1.0)
+  ENRICHMENT_PERCENTILE = 99.0
+  ENRICHMENT_SCALE = log2
+  ENRICHMENT_STYLE = unilateral_diverging
+  ENRICHMENT_SYMMETRIC = True
+  ENRICHMENT_VMAX = 3
+  EXCEL_PATH = C:/Users/fredz/Desktop/test/Test codonpipe\umap nn10 md0p01\cds_from_genomic_ClusteringAnalysis.xlsx
+  GCHM_CMAP_MAX_REL = 1.0
+  GCHM_CMAP_MIN_REL = 0.2
+  GCHM_COLORMAP = plasma
+  GCHM_CUSTOM_CMAPS_XLSX = 
+  GCHM_DPI = 300
+  GCHM_HEIGHT_PER_CLUSTER = 0.3
+  GCHM_LABEL_FONTSIZE = 10
+  GCHM_OUTPUT_FILENAME = gene_cluster_heatmap_KS.png
+  GCHM_SHOW_FIG = True
+  GCHM_SIGMA = 10.0
+  GCHM_SPREAD_FACTOR = 5.0
+  GRID_MAJOR_ALPHA = 0.55
+  GRID_MAJOR_COLOR = black
+  GRID_MAJOR_LW = 1.0
+  GRID_MAJOR_STEP = None
+  HERE = c:\dropbox\boulot fred\matlab & python\python\codonpipe
+  HIGHLIGHT_ALPHA = 0.95
+  HIGHLIGHT_COLUMNS = None
+  HIGHLIGHT_EDGE_COLOR = black
+  HIGHLIGHT_EDGE_WIDTH = 0.6
+  HIGHLIGHT_MARKER = o
+  INCLUDE_COLUMNS = None
+  LOCUS_TAGS_SHEET = Locus Tags
+  MAX_NROWS = 4
+  PANEL_H_IN = 5.0
+  PANEL_W_IN = 5.0
+  PLOT_MODE = grid
+  PNG_DPI = 220
+  ROOT = c:\dropbox\boulot fred\matlab & python\python\codonpipe
+  RUN_GENE_CLUSTER_LOCALIZATION_HEATMAP = True
+  SAVE_FIG = True
+  SHOW_BACKGROUND_SMALL = True
+  SHOW_COLORBAR = True
+  SUBPLOT_HSPACE = 0.3
+  SUBPLOT_WSPACE = 0.2
+  UMAP_SHEET = coordinates
+  USE_FILE_DIALOG = False
+  X_LABEL = UMAP1
+  Y_LABEL = UMAP2
+

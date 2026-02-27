@@ -1,0 +1,16 @@
+============================================================================================
+FIGURE LEGEND ADDENDUM — CLUSTER OVERLAY PLOTS (APPENDED)
+--------------------------------------------------------------------------------------------
+Cluster overlay plots show genes in the 2D embedding, with one panel per curated cluster. Within each panel, genes belonging to the cluster are displayed at their embedding coordinates. Colors represent either local density of the cluster in embedding space or enrichment relative to all genes (depending on COLOR_MODE).
+
+Figure output (best-effort filename): cds_from_genomic_ClusteringAnalysis_UMAP_local_ENRICH_log2_unilateral_diverging.png
+Coloring mode: enrichment. In enrichment mode, enrichment is computed by comparing a smoothed local density field of cluster genes to the corresponding global density field.
+
+============================================================================================
+FIGURE LEGEND ADDENDUM — CLUSTER OVERLAY PLOTS (APPENDED)
+--------------------------------------------------------------------------------------------
+Cluster overlay plots show genes in the 2D embedding, with one panel per curated cluster. Within each panel, genes belonging to the cluster are displayed at their embedding coordinates. Colors represent either local density of the cluster in embedding space or enrichment relative to all genes (depending on COLOR_MODE).
+
+Figure output (best-effort filename): cds_from_genomic_ClusteringAnalysis_UMAP_local_ENRICH_log2_unilateral_diverging.png
+Coloring mode: enrichment. In enrichment mode, enrichment is computed by comparing a smoothed local density field of cluster genes to the corresponding global density field.
+

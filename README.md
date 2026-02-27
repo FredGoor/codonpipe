@@ -52,3 +52,4 @@ python Plotting_Pipeline.py
 
 This repository includes a built-in MATLAB-style **parula** colormap (256 steps).
 You can use it by setting any colormap option to `parula` or `parula_r`.
+
